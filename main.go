@@ -61,7 +61,7 @@ func getUserInput() (float64, float64) {
 
 func checkRepeatCalculation() bool {
 	var userChoice string
-	fmt.Print("Do you want to do calculation again? (y/n): ")
+	fmt.Print("Do you want to do calculation BMI again? (y/n): ")
 	fmt.Scan(&userChoice)
 	if userChoice == "y" || userChoice == "Y" {
 		return true
